@@ -58,4 +58,4 @@ spec:
           imagePullPolicy: Always
       serviceAccountName: egress-cilium-node-operator-acc
       imagePullSecrets:
-        - name: regcred
+        - name: filigrandocker
