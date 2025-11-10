@@ -57,5 +57,6 @@ spec:
           image: filigran/egress-cilium-node-operator:latest
           imagePullPolicy: Always
       serviceAccountName: egress-cilium-node-operator-acc
+      priorityClassName: system-node-critical
       imagePullSecrets:
         - name: filigrandocker
